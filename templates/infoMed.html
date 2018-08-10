@@ -1,0 +1,34 @@
+<h1 class="subheader">Información del usuario: {{usuario.datosPersonales.Nombre}}</h1>
+
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openUser(event, 'DatosPersonales')">Datos Personales</button>
+    <button class="tablinks" onclick="openUser(event, 'Direccion')">Dirección</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="DatosPersonales" class="tabcontent">
+    <h3>Datos Personales</h3>
+    <p>NºColegiado:{{usuario.datosPersonalesNºcolegiado}}</p>
+    <p>Nombre: {{usuario.datosPersonales.Nombre}}</p>
+    <p>Apellido1: {{usuario.datosPersonales.Apellido1}}</p>
+    <p>Apellido2: {{usuario.datosPersonales.Apellido2}}</p>
+    <p>Género: {{usuario.datosPersonales.Genero}}</p>
+    <p>Fecha Nacimiento: {{usuario.datosPersonales.FechaDeNacimiento}}</p>
+    <p>NIFPasaporte: {{usuario.datosPersonales.NIFPasaporte}}</p>
+    <p>Tipo de profesional:{{usuario.datosPersonales.TipoDeProfesional}}</p>
+
+</div>
+
+<div id="Direccion" class="tabcontent">
+    <h3>Dirección</h3>
+
+    <p>Calle: {{usuario.direccion.Calle}}</p>
+    <p>Número: {{usuario.direccion.Numero}}</p>
+    <p>Puerta: {{usuario.direccion.Puerta}}</p>
+    <p>CP: {{usuario.direccion.CodigoPostal}}</p>
+    <p>Ciudad: {{usuario.direccion.Ciudad}}</p>
+</div>
+
