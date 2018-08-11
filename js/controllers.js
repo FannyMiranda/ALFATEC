@@ -6,7 +6,7 @@ app.controller("appController", function appController($scope, AppService, $loca
     //console.log("entramos en factory");
     //console.log($scope);
     console.log(typeof (response.pacientes))
-    $scope.usuarios = response.pacientes;
+    $scope.usuarios = response.pacientes.concat(response.profesionales);
     //console.log('data'+JSON.stringify(data));
 
 
@@ -27,7 +27,7 @@ app.controller("infoMedController", function infoController($scope, $routeParams
 
 app.controller("addController", function addController($scope, $location) {
     $scope.textButton = "Añadir nuevo Usuario";
-    $scope.usuario = {};
+    $scope.usuario = {datosPersonales:{TipoDeUsuario:'Paciente'}};
 
 
 

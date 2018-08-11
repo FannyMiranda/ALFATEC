@@ -67,16 +67,16 @@
       opacity: 1;
     }
   }
-  
+  $azulMedico: #43a4d3;
   
   .button {
     &.alert {
-      background-color: #43a4d3;
-      border-color: #43a4d3;
+      background-color: $azulMedico;
+      border-color: $azulMedico;
     }
     &.success {
-      background-color: #43a4d3;
-      border-color: #43a4d3;
+      background-color: $azulMedico;
+      border-color: $azulMedico;
       &:hover {
         background-color: #2d83a5;
       }
