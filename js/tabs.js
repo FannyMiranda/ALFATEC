@@ -1,4 +1,4 @@
-function openUser(evt, cityName) {
+function openUser(evt, pestañaName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -15,6 +15,6 @@ function openUser(evt, cityName) {
     }
 
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(pestañaName).style.display = "block";
     evt.currentTarget.className += " active";
 }

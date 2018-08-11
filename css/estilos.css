@@ -9,7 +9,7 @@
 
 .panel-user {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.2em;
   border-color: #2b2b2b;
   margin-bottom: 1.25em;
   padding: 1em;
@@ -47,7 +47,7 @@
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
+
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
@@ -76,4 +76,11 @@
 }
 .botonBuscador{
   border-color: #2d83a5;
+}
+
+.tipodeusuario {
+  font-size:1.5vw;
+}
+.nombrecompleto{
+  font-size:1.4vw;
 }

@@ -1,0 +1,1 @@
+Para arrancar el proyecto, ejecutar en el Terminal "live-server"
