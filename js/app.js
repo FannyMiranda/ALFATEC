@@ -14,42 +14,43 @@ app.config(function ($routeProvider) {
             controller: 'infoController'
         })
 
-    //prueba
-    .when("/infoMed/:id", {
-        templateUrl: 'templates/infoMed.html',
-        controller: 'infoMedController'
-    })
-    //
+
+        .when("/infoMed/:id", {
+            templateUrl: 'templates/infoMed.html',
+            controller: 'infoMedController'
+        })
+
         .when("/add", {
             title: 'Añadir usuario',
             templateUrl: 'templates/add.html',
             controller: 'addController'
         })
-        
+
         .when("/addMed", {
             title: 'Añadir nuevo Profesional',
             templateUrl: 'templates/addMed.html',
             controller: 'addMedController'
         })
-        
+
         .when("/edit/:id", {
             title: 'Editar Usuario',
             templateUrl: 'templates/edit.html',
             controller: 'editController'
         })
 
-        //prueba
+
         .when("/editMed/:id", {
             title: 'Editar Profesional',
             templateUrl: 'templates/editMed.html',
-            controller: 'editController'
+            controller: 'editMedController'
         })
-        //
+
         .when("/remove/:id", {
             title: 'Eliminar usuario',
             templateUrl: 'templates/remove.html',
             controller: 'removeController'
         })
+
         .when("/removeAll", {
             templateUrl: "templates/removeAll.html",
             controller: 'removeAllController'

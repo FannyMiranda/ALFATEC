@@ -1,6 +1,7 @@
 {
   "pacientes": [
      {
+       "id":"1",
       "datosPersonales":{
         "TipoDeUsuario":"Paciente",
         "NHC":12,
@@ -15,17 +16,18 @@
         "Calle":"Sarrión",
         "Numero":12,
         "Puerta":12,
-        "CódigoPostal":12,
+        "CodigoPostal":12,
         "Ciudad":12
       },
       "listadoAseguradoras":{
         "NombreAseguradora":"kjlkjl",
         "TipoDeSeguro":12,
-        "NúmeroDeLaTarjeta":12
+        "NumeroDeLaTarjeta":12
    
       }
     },
     {
+      "id":"2",
       "datosPersonales":{
         "TipoDeUsuario":"Paciente",
         "NHC":12,
@@ -34,23 +36,24 @@
         "Apellido2":"kjk",
         "Genero":"Mujer",
         "FechaDeNacimiento":12,
-        "NIFPasaporte":12434343
+        "NIFPasaporte":"12434343"
       },
       "direccion":{
         "Calle":"jhjj",
         "Numero":12,
         "Puerta":12,
-        "CódigoPostal":12,
+        "CodigoPostal":12,
         "Ciudad":"jhkjhk"
       },
       "listadoAseguradoras":{
         "NombreAseguradora":"kjk",
         "TipoDeSeguro":"Salud",
-        "NúmeroDeLaTarjeta":12
+        "NumeroDeLaTarjeta":12
     
       }
     },
     {
+      "id":"3",
       "datosPersonales":{
         "TipoDeUsuario":"Paciente",
         "NHC":12,
@@ -65,54 +68,61 @@
         "Calle":"Sarrión",
         "Numero":12,
         "Puerta":12,
-        "CódigoPostal":12,
+        "CodigoPostal":12,
         "Ciudad":12
       },
       "listadoAseguradoras":{
         "NombreAseguradora":"kjlkjl",
         "TipoDeSeguro":"Familiar",
-        "NúmeroDeLaTarjeta":12
+        "NumeroDeLaTarjeta":12
    
       }
     }
   ],
   "profesionales":[
     {
+      "id":"4",
       "datosPersonales":{
-        "Nºcolegiado":12,
+        "NumColegiado":12,
         "Nombre":12,
         "Apellido1":12,
         "Apellido2":12,
-        "Género":12,
+        "Genero":12,
         "Fecha de nacimiento":12,
-        "NifPasaporte":2323,
-        "TipoDeProfesional":"Médico"
+        "NIFPasaporte":2323,
+        "TipoDeUsuario":"Profesional",
+        "TipoDeProfesional":"Medico"
+        
+
       },
       "direccion":{
         "Calle":12,
         "Numero":12,
         "Puerta":12,
-        "CódigoPostal":12,
+        "CodigoPostal":12,
         "Ciudad":12
       }
     },
     {
+      "id":"5",
       "datosPersonales":{
-        "Ncolegiado":12,
+        "NumColegiado":12,
         "Nombre":12,
         "Apellido1":12,
         "Apellido2":12,
-        "Género":12,
+        "Genero":12,
         "Fecha de nacimiento":12,
-        "NifPasaporte":3898
+        "NIFPasaporte":3898,
+        "TipoDeUsuario":"Profesional",
+        "TipoDeProfesional":"Enfermero"
+
       },
       "direccion":{
         "Calle":12,
         "Numero":12,
         "Puerta":12,
-        "CódigoPostal":12,
-        "Ciudad":12,
-        "TipoDeProfesional":"Enfermero"
+        "CodigoPostal":12,
+        "Ciudad":12
       }
     }
   ]

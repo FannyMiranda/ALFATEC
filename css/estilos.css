@@ -79,8 +79,11 @@
 }
 
 .tipodeusuario {
-  font-size:1.5vw;
+  font-size:1em;
 }
 .nombrecompleto{
-  font-size:1.4vw;
+  font-size:0.9em;
 }
+/*body {
+  font-size:calc( 9px + 1vw );
+}*/
